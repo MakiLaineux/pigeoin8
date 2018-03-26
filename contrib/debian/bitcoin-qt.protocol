@@ -1,0 +1,11 @@
+[Protocol]
+exec=pigeoin-qt '%u'
+protocol=pigeoin
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

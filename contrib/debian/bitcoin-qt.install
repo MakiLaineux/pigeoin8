@@ -1,0 +1,6 @@
+pigeoin-qt usr/bin
+share/pixmaps/pigeoin32.xpm usr/share/pixmaps
+share/pixmaps/pigeoin16.xpm usr/share/pixmaps
+share/pixmaps/pigeoin128.png usr/share/pixmaps
+debian/pigeoin-qt.desktop usr/share/applications
+debian/pigeoin-qt.protocol usr/share/kde4/services/
