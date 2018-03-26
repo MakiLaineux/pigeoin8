@@ -1,0 +1,64 @@
+Shutdown : In progress...
+Flush(false) db not started
+StopNode()
+Flushed 0 addresses to peers.dat  53ms
+Flush(true) db not started
+Shutdown : done
+2018-03-26 17:00:21 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-03-26 17:00:21 Pigeoin version v0.8.6.0-g9d11aba4c477-beta (2018-03-26 17:37:10 +0200)
+2018-03-26 17:00:21 Using OpenSSL version OpenSSL 1.0.2g  1 Mar 2016
+2018-03-26 17:00:21 Default data directory /home/ulysse/.pigeoin
+2018-03-26 17:00:21 Using data directory 
+2018-03-26 17:00:21 Using at most 125 connections (1024 file descriptors available)
+2018-03-26 17:00:21 Using 8 threads for script verification
+2018-03-26 17:00:21 init message: Verifying wallet...
+2018-03-26 17:00:21 dbenv.open LogDir=database ErrorFile=db.log
+2018-03-26 17:00:21 Bound to [::]:19481
+2018-03-26 17:00:21 Bound to 0.0.0.0:19481
+2018-03-26 17:00:21 init message: Loading block index...
+2018-03-26 17:00:21 Opening LevelDB in blocks/index
+2018-03-26 17:00:21 Opened LevelDB successfully
+2018-03-26 17:00:21 Opening LevelDB in chainstate
+2018-03-26 17:00:21 Opened LevelDB successfully
+2018-03-26 17:00:21 LoadBlockIndexDB(): last block file = 0
+2018-03-26 17:00:21 LoadBlockIndexDB(): transaction index disabled
+2018-03-26 17:00:21 Initializing databases...
+2018-03-26 17:00:21 0000006906951d15998e89346b3917a0e1d0c355e7385c32fd6d590ebc9ba1c0
+2018-03-26 17:00:21 0000006906951d15998e89346b3917a0e1d0c355e7385c32fd6d590ebc9ba1c0
+2018-03-26 17:00:21 dee418954bfa8548d22cef5ef2386a0c563906c1807930b97cc11949f596d6b3
+2018-03-26 17:00:21 CBlock(hash=0000006906951d15998e89346b3917a0e1d0c355e7385c32fd6d590ebc9ba1c0, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=dee418954bfa8548d22cef5ef2386a0c563906c1807930b97cc11949f596d6b3, nTime=1522051534, nBits=1e00ffff, nNonce=3176199, vtx=1)
+2018-03-26 17:00:21   CTransaction(hash=dee418954bfa8548d22cef5ef2386a0c563906c1807930b97cc11949f596d6b3, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01040b50657520696d706f727465)
+    CTxOut(nValue=1.00000000, scriptPubKey=04678afdb0fe5548271967f1a67130)
+  vMerkleTree: dee418954bfa8548d22cef5ef2386a0c563906c1807930b97cc11949f596d6b3 
+2018-03-26 17:00:21 ERROR: LoadBlockIndex() : failed to initialize block database: boost::filesystem::space: Operation not permitted
+2018-03-26 17:00:21 : Error initializing block database.
+Do you want to rebuild the block database now?
+2018-03-26 17:00:21 Shutdown : In progress...
+2018-03-26 17:00:21 Flush(false)
+2018-03-26 17:00:21 DBFlush(false) ended               0ms
+2018-03-26 17:00:21 StopNode()
+2018-03-26 17:00:21 Flushed 0 addresses to peers.dat  49ms
+2018-03-26 17:00:21 Committing 0 changed transactions to coin database...
+2018-03-26 17:00:21 Flush(true)
+2018-03-26 17:00:21 DBFlush(true) ended               0ms
+2018-03-26 17:00:22 Shutdown : done
